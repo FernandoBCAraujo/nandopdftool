@@ -9,7 +9,7 @@ st.markdown("---")
 
 # 1. Upload dos arquivos
 arquivos_pdf = st.file_uploader(
-    "Escolha os arquivos PDF (múltipla seleção permitida)", 
+    "Escolha os arquivos PDF (múltipla seleção permitida). Máximo de 200 mb por arquivo", 
     type="pdf", 
     accept_multiple_files=True
 )
